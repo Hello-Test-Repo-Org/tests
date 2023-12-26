@@ -1,5 +1,5 @@
 name: Notify on Telegram
-on: [push]
+on: [push, fork]
 jobs:
   notify:
     runs-on: ubuntu-latest
